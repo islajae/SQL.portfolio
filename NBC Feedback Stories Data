@@ -12,7 +12,9 @@ SELECT
    WHERE approved LIKE '%2017%';
 
 -- #3 Show only stories from Texas.
-SELECT *
+SELECT    
+   title,
+   state,
    FROM breaking_news
    WHERE state = 'Texas';
 
