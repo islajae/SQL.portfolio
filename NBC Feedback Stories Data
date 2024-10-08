@@ -1,0 +1,28 @@
+-- Dataset: NBC news stories that were fact checked and needed revising in the year 2017.
+-- Source: NBC Universal
+-- Quieried with: Azure
+
+-- #1 Show which states had the most stories reported in the US.
+
+
+-- #2 Show total approved stories that took place beginning and end of 2017.
+SELECT
+   ROUND(SUM(total), 2) AS total_stories
+   FROM breaking_news
+   WHERE approved LIKE '%2017%';
+
+-- #3 Show only stories from Texas.
+SELECT *
+   FROM breaking_news
+   WHERE state = 'Texas';
+
+-- #4 Show only stories that took place in DFW Metroplex area.
+SELECT *
+   FROM breaking_news
+   WHERE city = 'Dallas' 'Ft Worth';
+
+-- #5 How many stories we're true and valid?
+SELECT
+   COUNT(accuracy) AS 'true_stories'
+   FROM breaking_news
+   WHERE approved LIKE '%yes%';
