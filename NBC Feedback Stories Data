@@ -2,8 +2,21 @@
 -- Source: NBC Universal
 -- Quieried with: Azure
 
--- #1 Show which states had the most stories reported in the US.
-
+-- #1 What is the total of stories published, true, false, approved, state, and country?
+SELECT
+    a.stories,
+    a.total AS stories_total,
+    b.true_stories AS true_stories_total,
+    b.false_stories AS false_stories_total,
+    b.approved_stories AS approved_stories_total,
+    c.state AS state_total,
+    c.country AS country_total
+FROM true_stories AS b
+FULL JOIN stories AS a
+ON b.sent_stories = a.aired_stories
+LEFT JOIN approved AS c
+ON b.true_stories = c.true_approved_stories
+ORDER BY a.stories;
 
 -- #2 Show total approved stories that took place beginning and end of 2017.
 SELECT
@@ -19,7 +32,9 @@ SELECT
    WHERE state = 'Texas';
 
 -- #4 Show only stories that took place in DFW Metroplex area.
-SELECT *
+SELECT 
+   title,
+   state,
    FROM breaking_news
    WHERE city = 'Dallas' 'Ft Worth';
 
