@@ -1,1 +1,46 @@
-123
+-- Dataset: Dexerto Monthly Analytics
+-- Source: Dexerto
+-- Quieried with: BigQuery
+
+-- 1. What was the total engagement for the month of February? 
+SELECT 
+    Views,
+    ROUND(SUM(title * view_count), 2) AS total_engagement
+FROM dexerto.videodata
+WHERE month = "February"
+GROUP BY Views
+ORDER BY total_engagement DESC;
+
+-- 2. What video performed the most in January and how many views did it get?
+SELECT 
+    Views,
+    ROUND(SUM(title * view_count), 2) AS total_views
+FROM dexerto.videodata
+WHERE month = "January"
+GROUP BY Title
+HAVING Title <> ''
+    AND Title <> 'Title'
+ORDER BY total_views DESC
+LIMIT 1;
+
+-- 3. Query the total views, likes, comments, dislikes, shares, and country for all videos that were posted in May.
+SELECT 
+    c.total_views,
+    count(f.total_views) AS views,
+    f.likes,
+    f.comments,
+    f.dislikes,
+    f.country
+FROM dexerto.mayvideodata
+INNER JOIN dexerto.mayvideodata AS c
+ON f.total_views = c.total_views
+GROUP BY 
+    c.total_views,
+    f.likes,
+    f.comments,
+    f.dislikes,
+    f.country;
+
+-- 4. 
+
+-- 5.
