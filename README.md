@@ -11,4 +11,5 @@ Welcome! This repository showcases my work across various programming languages 
 <li> (C#)</li>
 <li> (VB.NET)</li>
 <li> (Java)</li>
-<li> (Javascript)</li>
+
+<h2> Tableau Profile </h2>
