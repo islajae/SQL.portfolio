@@ -1,1 +1,1 @@
-<h2> Isla Altamirano's SQL Portfolio </h2>
+<h1> Isla Altamirano's SQL Portfolio </h1>
