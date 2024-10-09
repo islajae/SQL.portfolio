@@ -14,6 +14,7 @@ Welcome! This repository showcases my work across various programming languages 
 
 <h2> Tableau Profile </h2>
 <a href="https://public.tableau.com/app/profile/isla.altamirano/vizzes">Isla Altamirano Tableau Public</a>
+My profile showcases my experience with Tableau, I have worked with diverse datasets spanning from 2016 to the present. I’ve created a variety of visualizations to demonstrate my proficiency with the platform.
 
 <h2> 📫 How to reach me:</h2>
 
