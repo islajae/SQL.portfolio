@@ -13,8 +13,7 @@ Welcome! This repository showcases my work across various programming languages 
 <li> (Java)</li>
 
 <h2> Tableau Profile </h2>
-https://public.tableau.com/app/profile/isla.altamirano/vizzes
-[Happiest Countries in the World]([https://public.tableau.com/app/profile/isla.altamirano/vizzes]
+[Isla Altamirano Tableau Public]([https://public.tableau.com/app/profile/isla.altamirano/vizzes]
 
 <h2> 📫 How to reach me:</h2>
 
