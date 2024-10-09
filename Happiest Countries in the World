@@ -1,0 +1,17 @@
+-- Dataset: From my studies working on my Google Data Analytics Professional Certificate.
+-- Source: Google
+-- Quieried with: BigQuery
+
+-- #1 What is the median age in countries that are the most happiest?
+SELECT
+   name,
+   happiness_rank,
+   median_age,
+FROM
+  countries
+WHERE
+   happiness_rank > 5
+ORDER BY 
+   happiness_rank DESC;
+
+-- #2 
