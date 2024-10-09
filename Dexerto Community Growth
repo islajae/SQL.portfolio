@@ -41,6 +41,13 @@ GROUP BY
     f.dislikes,
     f.country;
 
--- 4. 
-
--- 5.
+-- 4. What is the basic demographic breakdown of the channel's viewerbase in each country?
+select
+    country,
+    gender,
+    round(avg(age), 1) as age,
+    round(avg(cities), 1) as top_cities,
+    round(avg(total_views), 2) as views_amount
+from dexerto.videodata
+group by country, gender
+order by country, gender;
