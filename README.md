@@ -13,7 +13,7 @@ Welcome! This repository showcases my work across various programming languages 
 <li> (Java)</li>
 
 <h2> Tableau Profile </h2>
-[Isla Altamirano Tableau Public](https://public.tableau.com/app/profile/isla.altamirano/vizzes)
+<a href="https://public.tableau.com/app/profile/isla.altamirano/vizzes">Isla Altamirano Tableau Public</a>
 
 <h2> 📫 How to reach me:</h2>
 
