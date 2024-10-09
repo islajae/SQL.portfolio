@@ -1,10 +1,10 @@
 <h1> Isla Altamirano's SQL Portfolio </h1>
 
-Welcome! This repository is a table of contents showcasing my work across various programming languages and technologies, including CSS, SQL, R, C#, VB.NET, Java, JavaScript, and machine learning. Below, you'll find pinned projects that highlight my skills in data cleaning, data visualization, and more.
+Welcome! This README file is a table of contents showcasing my work across various programming languages and technologies, including CSS, SQL, R, C#, VB.NET, Java, JavaScript, and machine learning. Below, you'll find pinned projects that highlight my skills in data cleaning, data visualization, and more.
 
 <h2> List of projects and their analysis: </h2>
 <li> <a href="https://github.com/islajae/SQL.portfolio">SQL</a></li>
-<li> (R)</li>
+<li> <a href="https://github.com/islajae/R.portfolio">R</a></li>
 <li> (Python)</li>
 <li> (CSS)</li>
 <li> (Javascript)</li>
