@@ -13,3 +13,13 @@ Welcome! This repository showcases my work across various programming languages 
 <li> (Java)</li>
 
 <h2> Tableau Profile </h2>
+https://public.tableau.com/app/profile/isla.altamirano/vizzes
+[Happiest Countries in the World]([https://public.tableau.com/app/profile/isla.altamirano/vizzes]
+
+<h2> 📫 How to reach me:</h2>
+
+[<img align="left" alt="Isla Altamirano | Email" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/google.svg" />][email]
+[<img align="left" alt="Isla Altamirano | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+
+[email]:  mailto:isla.altamirano94@gmail.com
+[linkedin]: https://www.linkedin.com/in/isla-altamirano-04300b106/
