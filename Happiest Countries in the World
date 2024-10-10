@@ -14,4 +14,24 @@ WHERE
 ORDER BY 
    happiness_rank DESC;
 
--- #2 
+-- #2 Display countries with a population greater than 5 million and order by population.
+SELECT 
+   name, 
+   population 
+FROM 
+   countries 
+WHERE 
+   population > 5000000 
+ORDER BY 
+  population DESC;
+
+-- #3 Which countries have the fastest-growing populations this year?
+SELECT 
+  name AS "fastest-growing populations", 
+  percent_one_year_change AS "one year population change (%)" 
+FROM 
+  countries 
+WHERE 
+  percent_one_year_change > 2 
+ORDER BY 
+  percent_one_year_change DESC;
