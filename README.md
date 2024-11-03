@@ -6,7 +6,7 @@ Welcome! This README file is a table of contents showcasing my work across vario
 <li> <a href="https://github.com/islajae/SQL.portfolio">SQL</a></li>
 <li> <a href="https://github.com/islajae/R.portfolio">R</a></li>
 <li> (Python)</li>
-<li> <a href="https://github.com/islajae/C-.portfolio">(C#)</li>
+<li> <a href="https://github.com/islajae/C-.portfolio">C#</li>
 <li> (Java)</li>
 
 <h2> Tableau Profile </h2>
